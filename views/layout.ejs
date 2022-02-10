@@ -3,7 +3,50 @@
 <head>
     <link rel='stylesheet', href='/static/stylesheets/bootstrap.min.css'>
 </head>
-<div class="container">
-<%- body %>
+
+<!--Remove -fluid if there is a resising problem-->
+<div class="container-fluid ">
+ <!--first row for logo-->
+    <div class="row">
+        <div class="col bg-secondary">
+            <!--spacing for left of center div-->
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-3 my-3 text-center">
+                    <p>Placeholder for logo</p>
+                    <span>Guiding Star</span></br>
+                    <span> Baprist Church</span>
+                </div>
+                <div class="col my-3 bg-primary">
+                    <!--spacing right of logo-->
+                </div>            
+            </div>
+        </div>
+        <div class="col bg-secondary">
+            <!--spacing for right of center div-->
+        </div>
+    </div>
+ <!--second for for links-->
+    <div class="row my-3 border">
+        <div class="col-4 bg-secondary "></div>
+        <div class="col border">Home</div>
+        <div class="col border">About Us</div>
+        <div class="col border">Services</div>
+        <div class="col border">Give</div>
+        <div class="col border">Events</div>
+        <div class="col border">Contact</div>
+        <div class="col-2 bg-secondary"></div>
+    </div>
+    <body>
+        <%- body %>
+    </body>
+
+    <footer>
+        Footer layout 3 pannel black background
+    </footer>
+    
 </div>
-</html>
+
+
+
