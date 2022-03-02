@@ -2,75 +2,71 @@
 <html lang="en">
 <head>
     <link rel='stylesheet', href='/static/stylesheets/bootstrap.min.css'>
+    <link rel='stylesheet', href='/static/stylesheets/style.css'>
 </head>
 
 <!--Remove -fluid if there is a resising problem-->
 <div class="container-fluid ">
  <!--first row for logo-->
     <div class="row">
-        <div class="col bg-secondary">
+        <div class="col-1 bg-secondary">
             <!--spacing for left of center div-->
         </div>
-        <div class="col-8">
+        <div class="col-10">
             <div class="row">
                 <div class="col-3 my-3 text-center">
                     <p>Placeholder for logo</p>
                     <span>Guiding Star</span></br>
                     <span> Baprist Church</span>
                 </div>
-                <div class="col my-3 bg-primary">
+                <div class="col bg-primary">
                     <!--spacing right of logo-->
                 </div>            
             </div>
         </div>
-        <div class="col bg-secondary">
+        <div class="col-1 bg-secondary">
             <!--spacing for right of center div-->
         </div>
     </div>
  <!--second for for links-->
-    <div class="row my-3 border">
+    <div class="row mb-5">
         <div class="col-4 bg-secondary "></div>
-        <div class="col border">Home</div>
-        <div class="col border">About Us</div>
-        <div class="col border">Services</div>
-        <div class="col border">Give</div>
-        <div class="col border">Events</div>
-        <div class="col border">Contact</div>
-        <div class="col-2 bg-secondary"></div>
+        <div class="col-1 border">Home</div>
+        <div class="col-1 border">About Us</div>
+        <div class="col-1 border">Services</div>
+        <div class="col-1 border">Give</div>
+        <div class="col-1 border">Events</div>
+        <div class="col-1 border">Contact</div>
+        <div class="col bg-secondary"></div>
     </div>
     <body>
         <%- body %>
     </body>
 
     <footer>
-        <div class="row border">
-            <div class="col text-white bg-secondary"></div>
-            <div class="col text-white bg-black text-center border">
-                <p>Sunday Services</p>
+        <div class="row">
+            <div class="col-4 text-white bg-slate br text-center py-4">
+                <h4>Sunday Services</h4>
                 <p>Sunday School Starts at 9:30AM<br>
                    Morning Worship starts at 10:45am</p>
-
             </div>
-            <div class="col text-white bg-black border text-center">
-                <p>Address</p>
+            <div class="col-4 text-white bg-slate text-center py-4">
+                <h4>Address</h4>
                     <p>
                         2724 W. Muhammad Ali Blvd.<br>
                         Louisville, Kentucky 40212<br><br>
 
                         Church Office:   (502)772-0805<br>
                         Fax:  (502)709-4297
-                    </p>
-                    
+                    </p>        
             </div>
-            <div class="col text-white bg-black text-center border">
-                <p>Stay Connected<p>
+            <div class="col-4 text-white bg-slate bl text-center py-4">
+                <h4>Stay Connected</h4>
                 <div>
                     facebook icon, insta etc
                 </div>
-            </div>
-            <div class="col text-white bg-secondary"></div>
+            </div> 
         </div>
-        Footer layout 3 pannel black background
     </footer>
     
 </div>
