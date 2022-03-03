@@ -17,3 +17,16 @@
 .br {
   border-right: 1px solid white;
 }
+.bbl {
+  border-left: 1px solid black;
+}
+.bbr {
+  border-right: 1px solid black;
+}
+a, u {
+  text-decoration: none;
+  color: black;
+}
+.einput {
+  width:50%;
+}
