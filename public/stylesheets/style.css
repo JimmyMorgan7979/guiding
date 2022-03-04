@@ -7,6 +7,8 @@
 }
 .bb {
   border-bottom: 1px solid black;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 .bg-slate {
   background-color: #2f2e2e;
@@ -29,4 +31,10 @@ a, u {
 }
 .einput {
   width:50%;
+}
+.subbutton {
+  background-color: #a0a09f;
+}
+.hoursbg {
+  background-color: snow;
 }
