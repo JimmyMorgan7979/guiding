@@ -1,31 +1,7 @@
-<div class="row">
-        <div class="col-1 bg-secondary">
-            <!--spacing for left of center div-->
-        </div>
-        <div class="col-10">
-            <div class="row">
-                <div class="col-3 my-3 text-center">
-                    <p>Placeholder for logo</p>
-                    <span>Guiding Star</span></br>
-                    <span> Baprist Church</span>
-                </div>
-                <div class="col bg-primary">
-                    <!--spacing right of logo-->
-                </div>            
-            </div>
-        </div>
-        <div class="col-1 bg-secondary">
-            <!--spacing for right of center div-->
-        </div>
-    </div>
- <!--second for for links-->
-    <div class="row mb-5">
-        <div class="col-4 bg-secondary "></div>
-        <div class="col-1 border">Home</div>
-        <div class="col-1 border">About Us</div>
-        <div class="col-1 border">Services</div>
-        <div class="col-1 border">Give</div>
-        <div class="col-1 border">Events</div>
-        <div class="col-1 border">Contact</div>
-        <div class="col bg-secondary"></div>
-    </div>
+<div class="row py-5 bg-danger text-center bg-image shadow-1-strong rounded" style="background-image: url('static/images/groupphoto.jpg');">
+  <h3 class="pb-4">AN INCLUSIVE COMMUNITY FOR ALL WHO</h3>
+  <h1>BELEIVE IN THE LOVE AND<br> SPIRIT OF THE CHURCH</h1>
+  <div>
+    <a href="#"><button class="buttonbg text-white px-5 py-2 my-5">READ MORE>></button></a>
+  </div>
+</div>  
