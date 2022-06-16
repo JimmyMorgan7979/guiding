@@ -7,6 +7,17 @@ var expressLayouts = require('express-ejs-layouts');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const sqlite3 = require("sqlite3").verbose();
+
+// Connection to SQlite Database
+const db_name = path.join(__dirname, "data", "apptest.db");
+const db = new sqlite3.Database(db_name, err => {
+  if (err) {
+    return console.error(err.message);
+  }
+  console.log("Successful connection to the database 'apptest.db'");
+});
+
 
 var app = express();
 
@@ -23,7 +34,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/static',express.static('public'))
 
-
+//Routes for site
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
