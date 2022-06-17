@@ -12,12 +12,12 @@ const sqlite3 = require("sqlite3").verbose();
 // Connection to SQlite Database
 const db_name = path.join(__dirname, "data", "apptest.db");
 const db = new sqlite3.Database(db_name, err => {
-  if (err) {
-    return console.error(err.message);
-  }
-  console.log("Successful connection to the database 'apptest.db'");
+ if (err) {
+   return console.error(err.message);
+ }
+ console.log("Successful connection to the database 'apptest.db'");
 });
-
+//change test
 
 var app = express();
 
