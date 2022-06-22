@@ -38,3 +38,13 @@ a, u {
 .hoursbg {
   background-color: snow;
 }
+.bgimage {
+  height:300px;
+  object-fit: scale-down;
+  background-image: url("/static/images/hands.jpg");
+}
+.fullbg{
+  background-size:cover;
+  text-shadow: 2px 2px 8px #000;
+  color: #fff;
+}
